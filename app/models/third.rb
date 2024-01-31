@@ -1,0 +1,2 @@
+class Third < ThirdRecord
+end

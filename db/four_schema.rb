@@ -10,18 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_31_200018) do
-  create_table "firsts", force: :cascade do |t|
-    t.string "name"
+ActiveRecord::Schema[7.0].define(version: 2024_01_31_215339) do
+  create_table "fours", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "seconds", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "title"
   end
 
 end

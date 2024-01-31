@@ -1,3 +1,2 @@
 class First < PrimaryRecord
-  
 end
